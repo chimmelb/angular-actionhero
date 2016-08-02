@@ -1,0 +1,26 @@
+{
+  "name": "angular-actionhero",
+  "authors": [
+    "chimmelb <clay.himmelberger@gmail.com>"
+  ],
+  "description": "angular provider for actionhero client",
+  "main": "actionhero-client-provider.js",
+  "keywords": [
+    "angular",
+    "ng",
+    "actionhero",
+    "api"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.2"
+  }
+}
