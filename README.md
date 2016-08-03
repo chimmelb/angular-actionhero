@@ -4,9 +4,11 @@ This module provides an angular service to communicate with an [ActionHero](http
 
 ##Installation
 
-TODO: write about bower here
+```
+bower install angular-actionhero --save
+```
 
-Include the script in your page, and the module `actionhero` in your angular module:
+Include the main script (`bower_components/angular-actionhero/actionhero-client-provider.js`) in your page, and the module `actionhero` in your angular module:
 
 ```
 angular
