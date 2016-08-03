@@ -165,8 +165,8 @@
           });
         }
       };
-      ActionHeroBase.subscribe = function(scope, eventName, callback) {
-        var handler = $rootScope.$on(eventName, callback);
+      ActionHeroBase.subscribe = function(scope, eventName, eventCallback) {
+        var handler = $rootScope.$on(eventName, eventCallback);
         scope.$on('$destroy', handler);
         return handler; //Call this function to unsubscribe early
       };

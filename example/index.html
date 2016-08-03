@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="example">
+
+<head>
+  <title>Actionhero Example</title>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
+<script src="javascript/actionheroClient.js"></script>
+<script src="bower_components/angular-actionhero/actionhero-client-provider.js"></script>
+<script src="javascript/example.js"></script>
+<script src="javascript/example-controller.js"></script>
+
+<body ng-controller="ExampleCtrl">
+
+  Connected? {{ connected }}
+
+  <h3 ng-repeat="message in messages">{{message}}</h3>
+
+</body>
+
+</html>
